@@ -3,6 +3,16 @@ title: PCF Healthwatch v1.6 Release Notes
 owner: PCF Healthwatch
 ---
 
+## <a id='v1.6.4'></a>v1.6.4
+
+**Release Date: CHANGEME, 2019**
+
+### Features
+
+New features and changes in this release:
+
+* Remove alert associated to the depreciated metric [`Reverse Log Proxy Loss Rate`](https://docs.pivotal.io/platform/monitoring/key-cap-scaling.html#-reverse-log-proxy-loss-rate).
+
 ## <a id='v1.6.3'></a>v1.6.3
 
 **Release Date: September 17, 2019**
@@ -49,6 +59,9 @@ The Indicator Protocol Beta Dashboard charts are populated using data from Log C
 
 No corrective action is required. The issue will self-resolve if possible.
 
+#### Reverse Log Proxy Loss Rate Alert Fires
+
+Occasionally, the alert would fire, although the metric has been remove from Healthwatch v1.5 and above.
 
 ## <a id='v1.6.1'></a>v1.6.1
 
@@ -89,6 +102,10 @@ Occasionally, the Indicator Protocol Beta Dashboard charts will fail to load wit
 The Indicator Protocol Beta Dashboard charts are populated using data from Log Cache, which is a component of Loggregator. The charts may fail to load if Log Cache times out while processing the data.
 
 No corrective action is required. The issue will self-resolve if possible.
+
+#### Reverse Log Proxy Loss Rate Alert Fires
+
+Occasionally, the alert would fire, although the metric has been remove from Healthwatch v1.5 and above.
 
 ## <a id='v1.6.0'></a>v1.6.0
 
@@ -166,3 +183,6 @@ These charts are populated using Log Cache, which is part of Loggregator and wil
 
 No corrective action is required and it will self-resolve if possible.
 
+#### Reverse Log Proxy Loss Rate Alert Fires
+
+Occasionally, the alert would fire, although the metric has been remove from Healthwatch v1.5 and above.
